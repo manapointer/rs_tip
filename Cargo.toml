@@ -1,3 +1,7 @@
 [workspace]
 
-members = ["crates/rs_tip_lexer"]
+members = [
+    "crates/rs_tip_lexer",
+    "crates/rs_tip_parser",
+    "crates/rs_tip_syntax",
+]

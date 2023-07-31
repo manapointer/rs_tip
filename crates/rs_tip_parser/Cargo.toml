@@ -1,0 +1,12 @@
+[package]
+name = "rs_tip_parser"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+drop_bomb = "0.1.5"
+rowan = "0.15.11"
+rs_tip_lexer = { path = "../rs_tip_lexer" }
+rs_tip_syntax = { path = "../rs_tip_syntax" }
